@@ -2,7 +2,7 @@
 
 ## Overview
 This Travel App project is a web application that helps users plan their trips. It integrates multiple APIs to provide information about the destination, including weather forecasts, images, and other relevant details.
-![travel app 1](https://github.com/jeniferjuliat/travel-app/assets/107074702/d05729e7-9da0-4522-96d7-04ff21183ee4)
+
 ![travel-app-2-gif](https://github.com/jeniferjuliat/travel-app/assets/107074702/671d4882-2721-4f45-9a52-189e008dd926)
 
 ## Features
@@ -22,9 +22,6 @@ This Travel App project is a web application that helps users plan their trips. 
 - jQuery
 - SwiperJS (for image gallery)
 - Datepicker
-
-
-https://github.com/jeniferjuliat/travel-app/assets/107074702/acee809f-49c5-4b3a-89fb-3dea87e1a7ed
 
 
 ## Installation and Setup
@@ -57,3 +54,7 @@ This project is licensed by Udacity.
 - Geonames API for location data
 - Weatherbit API for weather forecasts
 - Pixabay API for images
+
+![travel app 1](https://github.com/jeniferjuliat/travel-app/assets/107074702/1c4b8770-c560-4a89-be8a-115b2fb78f68)
+![travel app 3](https://github.com/jeniferjuliat/travel-app/assets/107074702/94f3de6f-e668-49a0-8655-2d1c984fd706)
+
