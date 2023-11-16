@@ -2,8 +2,11 @@
 
 ## Overview
 This Travel App project is a web application that helps users plan their trips. It integrates multiple APIs to provide information about the destination, including weather forecasts, images, and other relevant details.
+![travel app 1](https://github.com/jeniferjuliat/travel-app/assets/107074702/d05729e7-9da0-4522-96d7-04ff21183ee4)
+![travel-app-2-gif](https://github.com/jeniferjuliat/travel-app/assets/107074702/671d4882-2721-4f45-9a52-189e008dd926)
 
 ## Features
+
 - **Destination Autocomplete**: Suggests destinations as the user types, using the Geonames API.
 - **Weather Forecast**: Provides weather information for the destination on the specified date, using the Weatherbit API.
 - **Image Gallery**: Displays images of the destination using the Pixabay API.
@@ -19,6 +22,10 @@ This Travel App project is a web application that helps users plan their trips. 
 - jQuery
 - SwiperJS (for image gallery)
 - Datepicker
+
+
+https://github.com/jeniferjuliat/travel-app/assets/107074702/acee809f-49c5-4b3a-89fb-3dea87e1a7ed
+
 
 ## Installation and Setup
 To run this project, you'll need Node.js and npm installed on your system.
