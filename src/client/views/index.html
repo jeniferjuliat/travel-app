@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="data:," />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+  <title>Travel App</title>
+</head>
+<body>
+  <header>
+    <div id="logo"></div>
+  </header>
+  <main>
+    <section id="form-section">
+      <form id="trip-form">
+        <label for="destination">Destination:</label>
+        <input type="text"  id="destination" list="destinations" required>
+        <datalist id="destinations"></datalist>
+
+        <label for="departure-date">Departure Date:</label>
+        <input type="text" autocomplete="off" id="departure-date" required>
+        <button type="submit">Plan Trip</button>
+      </form>
+    </section>
+    <div id="saved-trips"></div>
+
+    <div id="popup-wrapper">
+      <div id="popup-content">
+        <div id="loader"></div>
+      <button id="close-popup">X</button>
+        <div id="error-message"></div>
+          <div id="trip-details">
+            <h2 id="popup-title">My trip to:</h2>
+            <div id="weather-details">
+              <div class="weather-icon-container">
+                  <img id="weather-icon" src="" alt="Weather Icon" class="weather-icon">
+              </div>
+              <div class="max-temp">
+                  <span>Max</span>
+                  <span id="max-temperature"></span>
+              </div>
+              <div class="min-temp">
+                  <span>Min</span>
+                  <span id="min-temperature"></span>
+              </div>
+          
+              <div class="temp-buttons">
+                  <span id="celsius-btn" class="temp-unit active">C°</span> | 
+                  <span id="fahrenheit-btn" class="temp-unit">F°</span>
+              </div>
+              <div class="user-data">
+                  <span id="location"></span>
+                  <span id="trip-date"></span>
+                  <span id="description"></span>
+                  <button id="save-trip">+ save trip</button>
+              </div>
+          </div>
+          <div class="swiper-container" id="gallery">
+              <div class="swiper-wrapper"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+          <div id="popup-background">
+              <img id="popup-image" onclick="closePopup()" />
+          </div>
+  </div>
+  </div>
+  </div>
+
+</main>
+<footer>
+  <p>Project developed for Udacity's Front End Developer Course.</p>
+</footer>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+/* === FORM STYLES === */
+#trip-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px; 
+  margin: 0 auto; 
+  font-family: 'Google Sans',arial,sans-serif;
+
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+}
+
+/* === RESPONSIVE STYLES === */
+@media only screen and (min-width: 200px) and (max-width: 299px){
+  #trip-form {
+    max-width: 90%;
+    padding: 15px;
+    margin-top: 20px; 
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 799px) {
+  #form-section {
+    padding-top: 10px;
+    align-content: center;
+    justify-content: center; 
+    align-items: center; 
+    height: 180px; 
+}
+  #trip-form {
+    max-width: 100%;
+    padding: 15px;
+    margin-top: 3px; 
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 900px) {
+  #trip-form {
+    max-width: 90%;
+  }
+}
+
+
